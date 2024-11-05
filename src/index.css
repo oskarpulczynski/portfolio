@@ -4,6 +4,6 @@
 
 @layer base {
   html {
-    @apply font-dmsans
+    @apply font-dmsans text-white
   }
 }

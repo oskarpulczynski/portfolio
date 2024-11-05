@@ -9,6 +9,10 @@ module.exports = {
 			colors: {
 				bg: "#020916",
 			},
+			maxWidth: {
+				'2xs': '20,4375rem',
+        '8xl': '82rem',
+      },
 		},
 	},
 	plugins: [],
