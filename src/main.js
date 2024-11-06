@@ -43,10 +43,10 @@ for (let tag of topics) {
             <ul class="flex gap-2 items-center mb-10 flex-wrap">
            ${tags}
             </ul>
-            <div class="flex flex-col items-start gap-4 md:flex-row">
-              <a class="inline-flex py-4 px-5 text-base md:text-xl leading-6 gap-2 text-purple-500 bg-bg font-bold border-[1px] rounded-xl border-gray-800 items-center"
+            <div class="flex flex-col items-start gap-4 lg:flex-row">
+              <a class="inline-flex py-4 px-5 text-base lg:text-xl leading-6 gap-2 text-purple-500 bg-bg font-bold border-[1px] rounded-xl border-gray-800 items-center"
                 href="${homepage}" target="_blank" rel="noreferrer nofollow"><img class="h-6 w-6" src="${frame}" alt="">View demo</a>
-              <a class="inline-flex py-4 px-5 text-base md:text-xl leading-6 gap-2 text-purple-500 bg-bg font-bold border-[1px] rounded-xl border-gray-800 items-center"
+              <a class="inline-flex py-4 px-5 text-base lg:text-xl leading-6 gap-2 text-purple-500 bg-bg font-bold border-[1px] rounded-xl border-gray-800 items-center"
                 href="${html_url}" target="_blank" rel="noreferrer nofollow"><img src="${githubIcon}" alt="">Source code</a>
             </div>
           </div>

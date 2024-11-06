@@ -3,6 +3,10 @@ module.exports = {
 	content: ["./src/**/*.{html,js,ts,jsx,tsx}"],
 	theme: {
 		extend: {
+
+			animation: {
+				slowSpin: 'spin 17s infinite linear',
+			},
 			fontFamily: {
 				dmsans: ["DM Sans", "sans-serif"],
 			},
