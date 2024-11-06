@@ -22,14 +22,15 @@ for (let tag of topics) {
   `
 }
 
-			const element = `<article class="bg-gradient-to-br from-white/10 to-white/5 rounded-[20px]">
+			const element = `<article class="bg-gradient-to-br from-white/10 to-white/5 rounded-[20px] flex flex-col">
           <div
             class="h-11 p-4 bg-gradient-to-br from-white/10 to-white/5 flex gap-1.5 shadow-innerlight rounded-t-[20px] border-b border-bg">
             <span class=" bg-bg w-3 h-3 block rounded-full opacity-50"> </span>
             <span class=" bg-bg w-3 h-3 block rounded-full opacity-50"></span>
             <span class=" bg-bg w-3 h-3 block rounded-full opacity-50"></span>
           </div>
-          <div class="p-5 md:p-10">
+          <div class="p-5 md:p-10 flex flex-col justify-between grow">
+          <div>
             <header class="flex gap-4 items-center mb-4">
               <h3 class="text-2xl leading-none font-bold">${name}</h3>
               <div class="flex gap-0.5 items-center px-2 py-1 bg-gray-400/10 rounded">
@@ -43,11 +44,12 @@ for (let tag of topics) {
             <ul class="flex gap-2 items-center mb-10 flex-wrap">
            ${tags}
             </ul>
-            <div class="flex flex-col items-start gap-4 lg:flex-row">
-              <a class="inline-flex py-4 px-5 text-base lg:text-xl leading-6 gap-2 text-purple-500 bg-bg font-bold border-[1px] rounded-xl border-gray-800 items-center"
+             </div>
+            <div class="flex flex-col items-start gap-4 md:flex-row flex-wrap">
+              <a class="inline-flex py-4 px-5 text-base lg:text-xl leading-6 gap-2 text-purple-500 bg-bg font-bold border-[1px] rounded-xl border-gray-800 transition hover:border-purple-600 hover:text-purple-600 duration-300 items-center"
                 href="${homepage}" target="_blank" rel="noreferrer nofollow"><img class="h-6 w-6" src="${frame}" alt="">View demo</a>
-              <a class="inline-flex py-4 px-5 text-base lg:text-xl leading-6 gap-2 text-purple-500 bg-bg font-bold border-[1px] rounded-xl border-gray-800 items-center"
-                href="${html_url}" target="_blank" rel="noreferrer nofollow"><img src="${githubIcon}" alt="">Source code</a>
+              <a class="inline-flex py-4 px-5 text-base lg:text-xl leading-6 gap-2 text-purple-500 bg-bg font-bold border-[1px] rounded-xl border-gray-800 transition hover:border-purple-600 hover:text-purple-600 duration-300 items-center"
+                href="${html_url}" target="_blank" rel="noreferrer nofollow"><img src="${githubIcon}" class="hover:fill-purple-600" alt="">Source code</a>
             </div>
           </div>
         </article>`;
