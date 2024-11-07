@@ -3,7 +3,15 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    @apply font-dmsans text-white
-  }
+	html {
+		@apply font-dmsans text-white;
+	}
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	scroll-margin-top: 6.625rem;
 }
