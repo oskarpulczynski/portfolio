@@ -24,12 +24,12 @@ for (let tag of topics) {
 
 			const element = `<article class="bg-gradient-to-br from-white/10 to-white/5 rounded-[20px] flex flex-col">
           <div
-            class="h-11 p-4 bg-gradient-to-br from-white/10 to-white/5 flex gap-1.5 shadow-innerlight rounded-t-[20px] border-b border-bg">
+            class="h-11 p-4 bg-gradient-to-br from-white/10 to-white/5 flex gap-1.5 shadow-innerlight rounded-t-[20px] border-b border-bg ring-1 ring-inset ring-bg">
             <span class=" bg-bg w-3 h-3 block rounded-full opacity-50"> </span>
             <span class=" bg-bg w-3 h-3 block rounded-full opacity-50"></span>
             <span class=" bg-bg w-3 h-3 block rounded-full opacity-50"></span>
           </div>
-          <div class="p-5 md:p-10 flex flex-col justify-between grow">
+          <div class="p-5 md:p-10 flex flex-col justify-between grow ring-1 ring-inset ring-bg">
           <div>
             <header class="flex gap-4 items-center mb-4">
               <h3 class="text-2xl leading-none font-bold">${name}</h3>
