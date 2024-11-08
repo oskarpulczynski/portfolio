@@ -5,7 +5,7 @@ module.exports = {
 		extend: {
 
 			animation: {
-				slowSpin: 'spin 17s infinite linear',
+				slowSpin: 'spin 20s infinite linear',
 			},
 			fontFamily: {
 				dmsans: ["DM Sans", "sans-serif"],
